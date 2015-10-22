@@ -21,7 +21,7 @@ $ios = "http://install.diawi.com/J5e5iy";
 require ("template/header.php");
 
 /*FORWARDER*/
-switch($locate) {
+switch($country) {
 
     case "越南": require_once("template/vietnam.php"); break;
     case "中国": require_once("template/china.php");break;
