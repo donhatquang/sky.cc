@@ -14,14 +14,17 @@
 }  
 html {
 	height: 100%;
+    /*background: #af7527;*/
 }
 *{margin:0;padding:0}
 body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+
+
 }
-body{background:url(../Images/bg-head.jpg) no-repeat center top fixed;-webkit-background-size: cover;background-size: cover;font-family:ssp, Arial, Helvetica, sans-serif;font-size:18px;line-height:20px}
+body{background:url(../Images/bg-head.jpg) no-repeat center top fixed #af7527;-webkit-background-size: cover;background-size: cover;font-family:ssp, Arial, Helvetica, sans-serif;font-size:18px;line-height:20px}
 strong{font-family:sspb, Arial, Helvetica, sans-serif !important;}
 /*Font face*/
 /*Layout*/
