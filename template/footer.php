@@ -10,7 +10,7 @@
 
 <!-- Visit Counter  -->
 <div style="display:none;">
-    <!-- <script src="http://s95.cnzz.com/z_stat.php?id=1256610121&web_id=1256610121" language="JavaScript"></script>-->
+    <script src="http://s95.cnzz.com/z_stat.php?id=1256610121&web_id=1256610121" language="JavaScript"></script>
     <?php
     echo '<img src="'._cnzzTrackPageView(1256610121).'" width="0" height="0"/>';
     //echo "sky.cc";

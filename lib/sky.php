@@ -29,8 +29,11 @@ class sky
     public function getLocationURI($ip)
     {
 
-        $location = @file_get_contents("http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json&ip=" . $ip);
+        echo $ip;
+        $ip = @file_get_contents("http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json&ip=".$ip);
         $location = json_decode($ip, true);
+
+        var_dump($location);
 
         return $location;
     }
