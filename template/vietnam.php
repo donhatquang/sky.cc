@@ -10,7 +10,7 @@
   </div>
   <div class="btn-down"> 
      <div class="btn-down-div">
-     <h2 class="wow fadeInDown">免费下载</h2> 
+     <h2 class="wow fadeInDown">Download miễn phí</h2>
    <p class="wow bounceInUp"><a href="<?php echo $ios; ?>" title="Download cho IOS"><img src="../Images/ico-ios.png"/></a></p>
      <!--<p class="wow bounceInUp"><a href="resources/sky_1.0.31.apk" title="Download cho Android"><img src="Images/ico-google.png"/></a></p>-->
     <p class="wow bounceInUp"><a href="https://play.google.com/store/apps/details?id=com.viettel.sky" title="Download cho Android"><img src="../Images/ico-google.png"/></a></p>
