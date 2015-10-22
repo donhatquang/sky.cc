@@ -9,7 +9,7 @@ require("lib/sky.php");
 $sky = new sky();
 $locate = $sky->getLocation();
 //$locate = "中国";
-var_dump($locate);
+//var_dump($locate);
 $country = $locate["country"];
 //exit();
 
